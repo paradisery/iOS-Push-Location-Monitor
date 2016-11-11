@@ -29,6 +29,7 @@
       [self allow];
     
 }
+//判断
 -(void)allow{
     if ([AccessAuthority allowLocation]) {
         NSLog(@"成功");
