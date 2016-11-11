@@ -56,7 +56,7 @@
             }];
         }
     } else if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
-        NSURL *url = [NSURL URLWithString:@"prefs:root=com.mengtukeji.Crowdsourcing"];
+        NSURL *url = [NSURL URLWithString:@"prefs:root=com.mengtukeji.RYAccessAuthority"];
         if( [[UIApplication sharedApplication]canOpenURL:url] ) {
             [[UIApplication sharedApplication]openURL:url];
         }
